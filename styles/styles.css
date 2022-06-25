@@ -1,0 +1,116 @@
+body {
+    display: flex;
+    
+    padding: 12px;
+}
+#leftBox{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    flex: 1;
+}
+#leftBox>* {
+    align-self: flex-start;
+}
+.choices{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-evenly;
+}
+.game{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    border: 1px solid black;
+    width: 200px;
+    height: 570px;
+    flex-wrap: wrap;
+    
+
+}
+
+.interactBox{
+    display: flex;
+    flex: 1 1;
+
+}
+#gameplayBox{
+    flex-direction: column;
+    
+    display: flex;
+    flex:2;
+    
+    border-bottom: 1px solid black;
+
+}
+#rightBox{
+    display: flex;
+    flex:1 1;
+    padding: 8px;
+    border-left: 1px solid black;
+
+}
+#actionButtons{
+    display: flex;
+    flex:1;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 80px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header >*{
+    border-bottom: 1px solid black;
+    padding:4px;
+}
+.header > :nth-child(1){
+    border-right: 1px solid black;
+}
+.header > :nth-child(3){
+    border-left: 1px solid black;
+}
+.header > :nth-child(2){
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+#statBox{
+    border: 1px solid black;
+    width :auto;
+}
+li {
+    white-space: nowrap;
+    list-style-type: none;
+}
+.stats{
+    padding: 2px;
+    flex-direction: column;
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+}
+#topActionButtons {
+    display: flex;
+    flex:1;
+    justify-content: space-between;
+    padding: 8px 80px ;
+    border-top: 1px solid black;
+}
+
+button{
+    align-self: flex-start;
+}
+.boxInside{
+    height :92%;
+}
+#resourceBar >*{
+    padding: 0; 
+}
+#resourceBar {
+    display: flex;
+    gap:16px;
+    
+}

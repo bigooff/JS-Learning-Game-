@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script defer src="./JS/index.js"></script>
+    <script defer src="./JS/card.js"></script>
+    <title>Practice JS Website</title>
+
+</head>
+<body>
+   
+    <div class="game">
+
+        <div class="header">
+            <div class="name">Kurios Maraburgmas</div>
+            <div class="title">SOURTIS MOURTIS PALIOURTIS </div>
+            <div class="placeholder">Xp per hour:</div>
+        </div>
+    
+
+
+        <div id="gameplayBox">
+            <div class="boxInside">
+                <div></div>
+            </div>
+            <div id="topActionButtons">
+                <button class="gather">Gather</button>
+                <button class="log">Logger Button</button>
+            </div> 
+        </div>
+
+    <div class="interactBox">
+
+        <div id="leftBox">
+
+            <div class="choices">
+                <div class="locationChoice">
+                    <label for="choose">Change location:</label>
+                    <select id="locations" name="pick">
+
+                    </select>
+                </div>
+                <div class="actionChoice">
+                    <label for="actions">Change Action:</label>
+                    <select id="actions" name="pick">
+                        <option value="">Gathering</option>
+                        <option value="">Foraging</option>
+                        <option value="">test23</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="actionButtons">
+                <button class="">Action 1</button>
+                <button class="">Action 2</button>
+            </div>   
+
+            <div id="resourceBar">
+                <p>Coins :</p>
+                <p id="wood"></p>
+            </div>
+
+        </div>
+
+        
+
+
+        <div id="rightBox">
+            <div id="statBox">
+                <ul class="stats">
+                    <li class="hp"></li>
+                    <li class="dmg"></li>
+                    <li class="armor"></li>
+                    <li class="critChance"></li>
+                    <li class="critDmg"></li>
+                </ul>
+            </div>
+            <div class ="logInside"></div>
+        </div>
+
+    </div>
+
+</div>
+
+
+</body>
+</html>
