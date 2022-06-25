@@ -1,0 +1,15 @@
+
+
+.card{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+.cardFooter{
+    border-top:1px solid black ;
+    width: 100%;
+    height: 20%;    
+}

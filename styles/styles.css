@@ -33,7 +33,14 @@ body {
 .interactBox{
     display: flex;
     flex: 1 1;
+    
 
+}
+.playGround{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 #gameplayBox{
     flex-direction: column;
@@ -61,7 +68,7 @@ body {
 .header{
     display: flex;
     justify-content: space-between;
-    
+    height: 40px;
 }
 .header >*{
     border-bottom: 1px solid black;
@@ -69,18 +76,24 @@ body {
 }
 .header > :nth-child(1){
     border-right: 1px solid black;
-}
-.header > :nth-child(3){
-    border-left: 1px solid black;
+    padding-top: 10px;
 }
 .header > :nth-child(2){
     border-left: 1px solid black;
     border-right: 1px solid black;
+    padding-top: 10px;
+}
+.header > :nth-child(3){
+    border-left: 1px solid black;
 }
 #statBox{
     border: 1px solid black;
     width :auto;
     margin-bottom: -2px;
+    background-image:url("../assets/x32-backGroundTile.png");
+    background-size:contain;
+    color: aliceblue;
+    
 }
 li {
     white-space: nowrap;
@@ -105,7 +118,7 @@ button{
     align-self: flex-start;
 }
 .boxInside{
-    height :92%;
+    height :100%;
 }
 #resourceBar >*{
     padding: 0; 
@@ -159,5 +172,23 @@ button{
     display: flex;
 }
 .dmg{
+    padding:8px 8px 8px 0;
+}
+.armorBox{
+    display: flex;
+}
+.armor{
+    padding:8px 8px 8px 0;
+}
+.critChanceBox{
+    display: flex;
+}
+.critChance{
+    padding:8px 8px 8px 0;
+}
+.critDmgBox{
+    display: flex;
+}
+.critDmg{
     padding:8px 8px 8px 0;
 }

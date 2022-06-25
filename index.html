@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/card.css">
     <script defer src="./index.js"></script>
 
     <title>Practice JS Website</title>
@@ -17,14 +18,17 @@
         <div class="header">
             <div class="name" id="playerName">Player Name</div>
             <div class="title">Game Title</div>
-            <div class="placeholder">Xp per hour:</div>
+            <div class="placeholder"><img type="gif" src="./assets/gifs/x32-crystal.gif"></div>
         </div>
     
 
 
         <div id="gameplayBox">
-            <div class="boxInside">
-                <div></div>
+            <div class="playGround">
+                <div class="card">
+                    <div class="cardFooter"></div>
+                </div>
+                
             </div>
             <div id="topActionButtons">
                 <button class="gather">Gather</button>
@@ -66,19 +70,26 @@
         </div>
 
         
-
+<!--clean this up here and in css -->
 
         <div id="rightBox">
             <div id="statBox">
                 <ul class="stats">
-                    <div class="hpBox"><img src="./imgs/x32-heart.png" alt="hp" id="hp"><li class="hp"></li></div>
-                    <div class="dmgBox"><img src="./imgs/x32-dmg.png" alt="dmg" id="dmg"><li class="dmg"></li></div>
-                    <li class="armor"></li>
-                    <li class="critChance"></li>
-                    <li class="critDmg"></li>
+                    <div class="hpBox"><img src="./assets/heart/x32-heart.png" alt="hp" id="hp"><li class="hp"></li></div>
+                    <div class="dmgBox"><img src="./assets/dmg/x32-dmg.png" alt="dmg" id="dmg"><li class="dmg"></li></div>
+                    <div class="armorBox"><img src="./assets/armor/x32-armor.png" alt="hp" id="armor"><li class="armor"></li></div>
+                    <div class="critChanceBox"><img src="./assets/critChance/x32-critChance.png" alt="critChance" id="dmg"><li class="critChance"></li></div>
+                    <div class="critDmgBox"><img src="./assets/critDamage/x32-critDmg.png" alt="hp" id="critDmg"><li class="critDmg"></li></div>
+
                 </ul>
             </div>
-            <div id="btnSandbox"></div>
+
+
+            <div id="btnSandbox">
+
+            </div>
+
+
             <div class ="logInside">
                 <div id="utilBtns">
                     <div id="firstRow">

@@ -112,11 +112,11 @@ function showStats(){
         } if (dmgli.className === "dmg"){
             dmgli.innerHTML = `: ${dmg}`
         } if (armorli.className === "armor"){
-            armorli.innerHTML = `Armor: ${armor}`
+            armorli.innerHTML = `: ${armor}`
         } if (critChanceli.className === "critChance"){
-            critChanceli.innerHTML = `Critical Chance: ${critChance}%`
+            critChanceli.innerHTML = `: ${critChance}%`
         } if (critDmgli.className === "critDmg"){
-            critDmgli.innerHTML = `Critical Damage: x${critDmg}`}
+            critDmgli.innerHTML = `: x${critDmg}`}
 
 }
 
