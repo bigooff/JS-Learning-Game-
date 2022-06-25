@@ -1,6 +1,6 @@
 body {
     display: flex;
-    
+
     padding: 12px;
 }
 #leftBox{
@@ -46,7 +46,7 @@ body {
 }
 #rightBox{
     display: flex;
-    flex:1 1;
+    flex:2 1;
     padding: 8px;
     border-left: 1px solid black;
 
@@ -80,6 +80,7 @@ body {
 #statBox{
     border: 1px solid black;
     width :auto;
+    margin-bottom: -2px;
 }
 li {
     white-space: nowrap;
@@ -113,4 +114,44 @@ button{
     display: flex;
     gap:16px;
     
+}
+.logInside{
+    padding: 20px;
+}
+#utilBtns{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+#btnSandbox{
+   border-bottom: 1px solid black;
+   border-right: 1px solid black;
+   border-top: 1px solid black;
+    padding: 0;
+    margin: 0;
+}
+#utilBtns>*{
+    margin: 8px;
+}
+#btnSandbox{
+    height: 100%;
+    width: 100%;
+}
+#firstRow , #secondRow{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+#hp{
+    width: 32px;
+    height: 32px;
+}
+.hpBox{
+    display: flex;
+}
+.hp{
+    padding:8px 8px 8px 0;
 }

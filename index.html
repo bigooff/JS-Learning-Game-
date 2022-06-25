@@ -15,8 +15,8 @@
     <div class="game">
 
         <div class="header">
-            <div class="name">Kurios Maraburgmas</div>
-            <div class="title">SOURTIS MOURTIS PALIOURTIS </div>
+            <div class="name" id="playerName">Player Name</div>
+            <div class="title">Game Title</div>
             <div class="placeholder">Xp per hour:</div>
         </div>
     
@@ -71,14 +71,28 @@
         <div id="rightBox">
             <div id="statBox">
                 <ul class="stats">
-                    <li class="hp"></li>
+                    <div class="hpBox"><img src="./imgs/x32-heart.png" alt="hp" id="hp"><li class="hp"></li></div>
                     <li class="dmg"></li>
                     <li class="armor"></li>
                     <li class="critChance"></li>
                     <li class="critDmg"></li>
                 </ul>
             </div>
-            <div class ="logInside"></div>
+            <div id="btnSandbox"></div>
+            <div class ="logInside">
+                <div id="utilBtns">
+                    <div id="firstRow">
+                         <button id ="inventory">Inventory</button>
+                         <button id ="equipment">Equipment</button>
+                         <button id ="">placeholder</button>
+                    </div>
+                    <div id="secondRow">
+                         <button id ="">placeholder</button>
+                         <button id ="details">Details</button>
+                         <button id ="settings">Settings</button>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </div>

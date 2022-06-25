@@ -1,5 +1,6 @@
 1. Create a server to run this app on ,,prereq:{
     //Learn express ?
+    //Learn GET, POST , http request etc..
 }
 
 
@@ -17,4 +18,11 @@
 
 4. Clean up index.js ,,prereq:{
     //Learn how to use node modules in the browser //<!important!>
+}
+
+5. Implement more things in the game {
+    // Learn everything.
+}
+6.Add some ui Images {
+    // Learn how to create some kind of assets
 }

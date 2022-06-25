@@ -108,7 +108,7 @@ function showStats(){
     stats = player.stats;
 
           if(hpli.className === "hp"){
-            hpli.innerHTML = `Health: ${hp}`
+            hpli.innerHTML = `: ${hp}`
         } if (dmgli.className === "dmg"){
             dmgli.innerHTML = `Damage: ${dmg}`
         } if (armorli.className === "armor"){
