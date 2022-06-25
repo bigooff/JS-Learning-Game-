@@ -110,7 +110,7 @@ function showStats(){
           if(hpli.className === "hp"){
             hpli.innerHTML = `: ${hp}`
         } if (dmgli.className === "dmg"){
-            dmgli.innerHTML = `Damage: ${dmg}`
+            dmgli.innerHTML = `: ${dmg}`
         } if (armorli.className === "armor"){
             armorli.innerHTML = `Armor: ${armor}`
         } if (critChanceli.className === "critChance"){

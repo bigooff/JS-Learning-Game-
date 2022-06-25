@@ -23,6 +23,4 @@
 5. Implement more things in the game {
     // Learn everything.
 }
-6.Add some ui Images {
-    // Learn how to create some kind of assets
-}
+6.Add some ui Images.
