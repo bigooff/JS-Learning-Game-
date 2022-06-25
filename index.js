@@ -1,6 +1,10 @@
+// import usefull modules
+// const fs = require("fs")
+// const JDP = require("./scripts/JDP")
+// const toJSON = require("./scripts/toJson")
+// game locations
 const availableLocations = document.querySelectorAll(".locationOptions")
 const locationMenu = document.querySelector("#locations")
-/////game locations
 const locations = [
     forest = {name : "Forest",} ,
     caverns = {name : "Caverns",} ,
@@ -30,7 +34,7 @@ for(let location of locations){
     locationMenu.appendChild(option)
 }
  ////// LOGGER //////                                                  <--------
- // devTest button for logging stuff
+ // devTest button for logging stuff to console
 let logButton= document.querySelector(".log");
 logButton.addEventListener("click",()=>{
     console.log(playerResources)

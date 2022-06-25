@@ -1,0 +1,23 @@
+{
+  "name": "js-learning-game-",
+  "version": "1.0.0",
+  "description": "A web game app to be finished along the way of learning how to code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigooff/JS-Learning-Game-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bigooff/JS-Learning-Game-/issues"
+  },
+  "homepage": "https://github.com/bigooff/JS-Learning-Game-#readme",
+  "dependencies": {
+    "require": "^2.4.20"
+  }
+}

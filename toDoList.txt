@@ -1,0 +1,20 @@
+1. Create a server to run this app on ,,prereq:{
+    //Learn express ?
+}
+
+
+
+2. Implement front-end to back-end communication ,,prereq:{
+    // Learn how to use nodeJs
+}
+
+
+
+3. Try to store data in database e.g.{inventory,levels,resources} ,,prereq:{
+    // Learn data formats. Make a self made database ++
+}
+
+
+4. Clean up index.js ,,prereq:{
+    //Learn how to use node modules in the browser //<!important!>
+}
